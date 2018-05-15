@@ -2376,7 +2376,7 @@
 		<value>0</value>
 		</enumerator>
 		<enumerator>
-		<name>STEPPED</name>
+		<name>CALCULATED</name>
 		<value>1</value>
 		</enumerator>
 </enumerationType>
@@ -10531,11 +10531,11 @@
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_FRATIO</id>
-		<default>FIXED</default>
+		<default>STEPPED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_VRATIO</id>
-		<default>FIXED</default>
+		<default>CALCULATED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_POWER_LIMIT</id>
